@@ -1,0 +1,29 @@
+body {
+    background: #231d1d;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo {
+    margin: 100px 30px 60px 30px;
+    font-size: 45px;
+}
+
+.enviar {
+    margin: 0 0 60px 0;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.enviar:hover {
+    background: rgb(71, 65, 65);
+    transform: scale(1.2);
+}
+
+.enviar:active {
+    border-color: rgb(0, 0, 0);
+}
